@@ -1,7 +1,7 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://github.com/gliese3/website"
-title: PaperMod
+title: gliese
 paginate: 5
 theme: [hugo-PaperMod]
 
@@ -24,12 +24,16 @@ languages:
   en:
     languageName: "English"
     weight: 1
+    title: "Personal blog"
     taxonomies:
       category: categories
       tag: tags
       series: series
     menu:
       main:
+        - name: Posts
+          url: posts
+          weight: 1
         - name: Archive
           url: archives
           weight: 5
@@ -39,37 +43,9 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    # title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
-
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
-      languageAltTitle: French
+      languageAltTitle: English
       profileMode:
         enabled: true
         title: PaperMod
@@ -79,10 +55,8 @@ languages:
         # imageHeight: 120
         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
         buttons:
-          - name: Blog
+          - name: Posts
             url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
   ru:
     languageName: "Russian"
@@ -107,9 +81,8 @@ languages:
           url: tags/
           weight: 4
 
-
     params:
-      languageAltTitle: French
+      languageAltTitle: Russian
       profileMode:
         enabled: true
         title: PaperMod
@@ -130,8 +103,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto

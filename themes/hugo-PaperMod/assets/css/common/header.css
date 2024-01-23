@@ -62,7 +62,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #menu .active {
@@ -84,8 +84,9 @@ body:not(.dark) #sun {
 
 .lang-switch a {
     margin: auto 3px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
+    color: rgb(130, 1, 1);
 }
 
 .logo-switches {
