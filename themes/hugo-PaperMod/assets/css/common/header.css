@@ -86,7 +86,6 @@ body:not(.dark) #sun {
     margin: auto 3px;
     font-size: 18px;
     font-weight: 500;
-    color: rgb(130, 1, 1);
 }
 
 .logo-switches {
