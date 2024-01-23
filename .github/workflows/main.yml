@@ -6,9 +6,8 @@ on:
       - "images/**"
       - "LICENSE"
       - "README.md"
-    branches:
-      - master
-      - exampleSite
+    branches: ["main"]
+
   workflow_dispatch:
     # manual run
     inputs:
