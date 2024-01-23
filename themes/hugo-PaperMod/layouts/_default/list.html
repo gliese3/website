@@ -59,7 +59,13 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+<!-- add color for folder -->
+{{- if (.Param "folder") }}
+<article class="{{ $class }} colorpage">
+{{- else }}
 <article class="{{ $class }}">
+{{- end }}
+
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">

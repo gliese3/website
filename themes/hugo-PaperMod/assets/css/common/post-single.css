@@ -405,3 +405,7 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.colorpage{
+    background-color: rgba(252, 226, 57, 0.211);
+}
