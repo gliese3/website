@@ -67,11 +67,12 @@ Example: `git@github.com-eqslab:eqslab/website.git`. Typically, just copy line f
 
 More information:
 
-- [video: How to Use Multiple GitHub Accounts on the Same Machine: Boost Your Productivity Today!](https://www.youtube.com/watch?v=lAPcvItvdy0&t)
-
 - [article](https://www.ayyaztech.com/blog/how-to-use-multiple-github-accounts-on-the-same-machine)
 
-- [video: Authenticating on multiple GitHub accounts using SSH](https://www.youtube.com/watch?v=N2hMGEeYR7c&t)
+- ▶️ https://www.youtube.com/watch?v=lAPcvItvdy0&t
+
+- ▶️ https://www.youtube.com/watch?v=N2hMGEeYR7c&t
+
 
 <!--more-->
 
