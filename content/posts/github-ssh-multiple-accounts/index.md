@@ -37,7 +37,7 @@ ssh-add ~/.ssh/<key_name>
 
 5. Copy public keys to Github accounts.
 
-![regular](/images/IMG_20200501_011326.jpg)
+![image](images/screenshot_20241227_161634.png)
 6.  Create `config` file in `.ssh` directory with the following content
 
 ```properties
