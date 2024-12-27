@@ -8,11 +8,11 @@ FRcategories: ["themes", "syntax"]
 FRseries: ["Themes Guide"]
 aliases: ["migrate-from-jekyl"]
 ShowToc: true
-TocOpen: true
+TocOpen: false
 weight: 2
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This article offers blabla a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
 <!--more-->
 

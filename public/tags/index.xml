@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Personal blog</title>
+    <link>http://localhost:1313/gliese3/website/tags/</link>
+    <description>Recent content in Tags on Personal blog</description>
+    <image>
+      <title>Personal blog</title>
+      <url>http://localhost:1313/gliese3/website/images/papermod-cover.png</url>
+      <link>http://localhost:1313/gliese3/website/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/gliese3/website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/gliese3/website/tags/css/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/gliese3/website/tags/html/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/gliese3/website/tags/markdown/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>http://localhost:1313/gliese3/website/tags/themes/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/gliese3/website/tags/docs/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PaperMod</title>
+      <link>http://localhost:1313/gliese3/website/tags/papermod/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/papermod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/gliese3/website/tags/code/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gist</title>
+      <link>http://localhost:1313/gliese3/website/tags/gist/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/gist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/gliese3/website/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>http://localhost:1313/gliese3/website/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syntax</title>
+      <link>http://localhost:1313/gliese3/website/tags/syntax/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>http://localhost:1313/gliese3/website/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/tags/emoji/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
