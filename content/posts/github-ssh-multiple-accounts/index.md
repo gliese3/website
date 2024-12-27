@@ -1,17 +1,77 @@
 ---
-author: "Hugo Authors"
-title: "Markdown Syntax Guide For L2"
-date: "2019-03-11"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-FRtags: ["markdown", "css", "html", "themes"]
-FRcategories: ["themes", "syntax"]
-FRseries: ["Themes Guide"]
-aliases: ["migrate-from-jekyl"]
-ShowToc: true
-TocOpen: false
+author: "Evgenii"
+title: "Multiple accounts on github"
+date: "2024-12-27"
+description: "Article describing how to use multiple accounts on github with ssh keys"
+tags: ["github", "ssh"]
+categories: ["how-to"]
+series: [""]
+aliases: [""]
+cover:
+  image: ""
+  caption: ""
+ShowToc: false
+TocOpen: true
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+1. Create `.ssh` folder in your `home` directory and go to it.
+
+2. Generate ssh keys (how many you need) with command 
+
+```properties
+ssh-keygen -t ed25519 -C <your_email@example.com>
+```
+then choose file name. `-C <your_email@example.com>` part seems to be unnecessary. It is just comment.
+
+3. Run ssh-agent in **BASH** with command
+
+```properties
+eval "$(ssh-agent -s)"
+```
+
+4. Add ssh keys to the ssh agent (not public)
+
+```properties
+ssh-add ~/.ssh/<key_name>
+```
+
+5. Copy public keys to github accounts.
+
+![regular](/images/IMG_20200501_011326.jpg)
+6.  Create `config` file in `.ssh` directory with the following content
+
+```properties
+# github <account_name>
+Host github.com-<account_name> #
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/<key_name>
+
+# github <account_name>
+Host github.com-<account_name>
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/<key_name>
+```
+
+The file could contain any number of keys.
+
+
+
+6. Clone a repository from github using ssh
+
+```properties
+git clone git@github.com-<account_name>:your_username/your_repository.git
+```
+Example: `git@github.com-eqslab:eqslab/website.git`. Typically, just copy line from github and add `-<account_name>` after `.com`.
+
+More information:
+
+- [video: How to Use Multiple GitHub Accounts on the Same Machine: Boost Your Productivity Today!](https://www.youtube.com/watch?v=lAPcvItvdy0&t)
+
+- [article](https://www.ayyaztech.com/blog/how-to-use-multiple-github-accounts-on-the-same-machine)
+
+- [video: Authenticating on multiple GitHub accounts using SSH](https://www.youtube.com/watch?v=N2hMGEeYR7c&t)
 
 <!--more-->
 
@@ -69,82 +129,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 | --------- | -------- | ------ |
 | _italics_ | **bold** | `code` |
 
-## Code Blocks
-
-#### Inline Code
-
-`This is Inline Code`
-
-#### Only `pre`
-
-<pre>
-This is pre text
-</pre>
-
-#### Code block with backticks
-
-```
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Example HTML5 Document</title>
-    </head>
-    <body>
-        <p>Test</p>
-    </body>
-</html>
-```
-
-#### Code block with backticks and language specified
-
-```html {linenos=true}
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Example HTML5 Document</title>
-        <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
-    </head>
-    <body>
-        <p>Test</p>
-    </body>
-</html>
-```
-
-#### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-
-{{< highlight html >}}
-
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-#### Gist
-
-{{< gist spf13 7896402 >}}
-
 ## List Types
 
 #### Ordered List
@@ -155,19 +139,32 @@ This is pre text
 
 #### Unordered List
 
--   List item
--   Another item
--   And another item
+- List item
+- Another item
+- And another item
 
-#### Nested list
+#### Nested Unordered list
 
--   Fruit
-    -   Apple
-    -   Orange
-    -   Banana
--   Dairy
-    -   Milk
-    -   Cheese
+- Fruit
+  - Apple
+  - Orange
+  - Banana
+- Dairy
+  - Milk
+  - Cheese
+
+#### Nested Ordered list
+
+1. Fruit
+    - Apple
+    - Orange
+    - Banana
+2. Dairy
+    1. Milk
+    2. Cheese
+3. Third item
+    1. Sub One
+    2. Sub Two
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 
