@@ -1,8 +1,8 @@
 ---
 author: "Evgenii"
-title: "Multiple accounts on github"
+title: "Multiple accounts on Github"
 date: "2024-12-27"
-description: "Article describing how to use multiple accounts on github with ssh keys"
+description: "Article describing how to use multiple accounts on Github with ssh keys"
 tags: ["github", "ssh"]
 categories: ["how-to"]
 series: [""]
@@ -35,7 +35,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/<key_name>
 ```
 
-5. Copy public keys to github accounts.
+5. Copy public keys to Github accounts.
 
 ![regular](/images/IMG_20200501_011326.jpg)
 6.  Create `config` file in `.ssh` directory with the following content
@@ -56,14 +56,12 @@ IdentityFile ~/.ssh/<key_name>
 
 The file could contain any number of keys.
 
-
-
-6. Clone a repository from github using ssh
+6. Clone a repository from Github using ssh
 
 ```properties
 git clone git@github.com-<account_name>:your_username/your_repository.git
 ```
-Example: `git@github.com-eqslab:eqslab/website.git`. Typically, just copy line from github and add `-<account_name>` after `.com`.
+Example: `git@github.com-eqslab:eqslab/website.git`. Typically, just copy line from Github and add `-<account_name>` after `.com`.
 
 _More information:_
 
