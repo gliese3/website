@@ -2,6 +2,6 @@
 title: PaperMod
 summary: Contains posts related to `PaperMod`
 description: Contains posts related to PaperMod
-backgroundcolor: red
+backgroundcolor: green
 folder: true
 ---

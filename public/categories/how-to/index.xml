@@ -14,11 +14,11 @@
     <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/gliese3/website/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Multiple accounts on github</title>
+      <title>Multiple accounts on Github</title>
       <link>http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/</guid>
-      <description>Article describing how to use multiple accounts on github with ssh keys</description>
+      <description>Article describing how to use multiple accounts on Github with ssh keys</description>
     </item>
   </channel>
 </rss>

@@ -152,24 +152,17 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Multiple accounts on github
+    <h2 class="entry-hint-parent">Multiple accounts on Github
     </h2>
   </header>
   <div class="entry-content">
-    <p> Create .ssh folder in your home directory and go to it.
+    <p>Create .ssh folder in your home directory and go to it.
 Generate ssh keys (how many you need) with command
 ssh-keygen -t ed25519 -C &lt;your_email@example.com&gt; then choose file name. -C &lt;your_email@example.com&gt; part seems to be unnecessary. It is just comment.
-Run ssh-agent in BASH with command eval &#34;$(ssh-agent -s)&#34; Add ssh keys to the ssh agent (not public) ssh-add ~/.ssh/&lt;key_name&gt; Copy public keys to github accounts. 6. Create config file in .ssh directory with the following content
-# github &lt;account_name&gt; Host github.com-&lt;account_name&gt; # HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/&lt;key_name&gt; # github &lt;account_name&gt; Host github.com-&lt;account_name&gt; HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/&lt;key_name&gt; The file could contain any number of keys.
-Clone a repository from github using ssh git clone git@github.com-&lt;account_name&gt;:your_username/your_repository.git Example: git@github.com-eqslab:eqslab/website.git. Typically, just copy line from github and add -&lt;account_name&gt; after .com.
-More information:
-video: How to Use Multiple GitHub Accounts on the Same Machine: Boost Your Productivity Today!
-article
-video: Authenticating on multiple GitHub accounts using SSH
-...</p>
+Run ssh-agent in BASH with command eval &#34;$(ssh-agent -s)&#34; Add ssh keys to the ssh agent (not public) ssh-add ~/.ssh/&lt;key_name&gt; Copy public keys to Github accounts. 6. Create config file in ....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-27 00:00:00 +0000 UTC'>December 27, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Evgenii</footer>
-  <a class="entry-link" aria-label="post link to Multiple accounts on github" href="http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/"></a>
+  <footer class="entry-footer"><span title='2024-12-27 00:00:00 +0000 UTC'>December 27, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Evgenii</footer>
+  <a class="entry-link" aria-label="post link to Multiple accounts on Github" href="http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/"></a>
 </article>
     </main>
     
