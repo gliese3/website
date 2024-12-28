@@ -69,6 +69,12 @@ _More information:_
 
 - [article](https://www.ayyaztech.com/blog/how-to-use-multiple-github-accounts-on-the-same-machine)
 
-- ▶️ https://www.youtube.com/watch?v=lAPcvItvdy0&t
+- videos: 
 
-- ▶️ https://www.youtube.com/watch?v=N2hMGEeYR7c&t
+{{< youtube lAPcvItvdy0&t >}}
+
+{{< youtube N2hMGEeYR7c&t >}}
+
+<!-- - ▶️ https://www.youtube.com/watch?v=lAPcvItvdy0&t
+
+- ▶️ https://www.youtube.com/watch?v=N2hMGEeYR7c&t -->
