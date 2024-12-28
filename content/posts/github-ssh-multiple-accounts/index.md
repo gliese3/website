@@ -63,6 +63,8 @@ git clone git@github.com-<account_name>:your_username/your_repository.git
 ```
 Example: `git@github.com-eqslab:eqslab/website.git`. Typically, just copy line from Github and add `-<account_name>` after `.com`.
 
+---
+
 _More information:_
 
 - [article](https://www.ayyaztech.com/blog/how-to-use-multiple-github-accounts-on-the-same-machine)
