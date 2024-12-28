@@ -71,9 +71,9 @@ _More information:_
 
 - videos: 
 
-{{< youtube lAPcvItvdy0&t >}}
+{{< youtube lAPcvItvdy0 >}}
 
-{{< youtube N2hMGEeYR7c&t >}}
+{{< youtube N2hMGEeYR7c >}}
 
 <!-- - ▶️ https://www.youtube.com/watch?v=lAPcvItvdy0&t
 
