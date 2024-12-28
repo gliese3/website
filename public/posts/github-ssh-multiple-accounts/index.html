@@ -104,8 +104,8 @@
   "keywords": [
     "github", "ssh"
   ],
-  "articleBody": " Create .ssh folder in your home directory and go to it.\nGenerate ssh keys (how many you need) with command\nssh-keygen -t ed25519 -C then choose file name. -C part seems to be unnecessary. It is just comment.\nRun ssh-agent in BASH with command eval \"$(ssh-agent -s)\" Add ssh keys to the ssh agent (not public) ssh-add ~/.ssh/ Copy public keys to Github accounts. 6. Create config file in .ssh directory with the following content\n# github Host github.com- # HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/ # github Host github.com- HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/ The file could contain any number of keys.\nClone a repository from Github using ssh git clone git@github.com-:your_username/your_repository.git Example: git@github.com-eqslab:eqslab/website.git. Typically, just copy line from Github and add - after .com.\nMore information:\narticle\n▶️ https://www.youtube.com/watch?v=lAPcvItvdy0\u0026t\n▶️ https://www.youtube.com/watch?v=N2hMGEeYR7c\u0026t\n",
-  "wordCount" : "138",
+  "articleBody": " Create .ssh folder in your home directory and go to it.\nGenerate ssh keys (how many you need) with command\n1 ssh-keygen -t ed25519 -C then choose file name. -C part seems to be unnecessary. It is just comment.\nRun ssh-agent in BASH with command 1 eval \"$(ssh-agent -s)\" Add ssh keys to the ssh agent (not public) 1 ssh-add ~/.ssh/ Copy public keys to Github accounts. 6. Create config file in .ssh directory with the following content\n1 2 3 4 5 6 7 8 9 10 11 # github Host github.com- # HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/ # github Host github.com- HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/ The file could contain any number of keys.\nClone a repository from Github using ssh 1 git clone git@github.com-:your_username/your_repository.git Example: git@github.com-eqslab:eqslab/website.git. Typically, just copy line from Github and add - after .com.\nMore information:\narticle\nvideos:\n",
+  "wordCount" : "150",
   "inLanguage": "en",
   "datePublished": "2024-12-27T00:00:00Z",
   "dateModified": "2024-12-27T00:00:00Z",
@@ -221,23 +221,59 @@
 <p>Generate ssh keys (how many you need) with command</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">ssh-keygen</span> <span class="s">-t ed25519 -C &lt;your_email@example.com&gt;</span>
-</span></span></code></pre></div><p>then choose file name. <code>-C &lt;your_email@example.com&gt;</code> part seems to be unnecessary. It is just comment.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-0-1"><a class="lnlinks" href="#hl-0-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">ssh-keygen</span> <span class="s">-t ed25519 -C &lt;your_email@example.com&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>then choose file name. <code>-C &lt;your_email@example.com&gt;</code> part seems to be unnecessary. It is just comment.</p>
 <ol start="3">
 <li>Run ssh-agent in <strong>BASH</strong> with command</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">eval</span> <span class="s">&#34;$(ssh-agent -s)&#34;</span>
-</span></span></code></pre></div><ol start="4">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-1-1"><a class="lnlinks" href="#hl-1-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">eval</span> <span class="s">&#34;$(ssh-agent -s)&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
 <li>Add ssh keys to the ssh agent (not public)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">ssh-add</span> <span class="s">~/.ssh/&lt;key_name&gt;</span>
-</span></span></code></pre></div><ol start="5">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-2-1"><a class="lnlinks" href="#hl-2-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">ssh-add</span> <span class="s">~/.ssh/&lt;key_name&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
 <li>Copy public keys to Github accounts.</li>
 </ol>
 <p><img loading="lazy" src="images/screenshot_20241227_161634.png" alt="image"  />
 
 6.  Create <code>config</code> file in <code>.ssh</code> directory with the following content</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="c1"># github &lt;account_name&gt;</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-3-1"><a class="lnlinks" href="#hl-3-1"> 1</a>
+</span><span class="lnt" id="hl-3-2"><a class="lnlinks" href="#hl-3-2"> 2</a>
+</span><span class="lnt" id="hl-3-3"><a class="lnlinks" href="#hl-3-3"> 3</a>
+</span><span class="lnt" id="hl-3-4"><a class="lnlinks" href="#hl-3-4"> 4</a>
+</span><span class="lnt" id="hl-3-5"><a class="lnlinks" href="#hl-3-5"> 5</a>
+</span><span class="lnt" id="hl-3-6"><a class="lnlinks" href="#hl-3-6"> 6</a>
+</span><span class="lnt" id="hl-3-7"><a class="lnlinks" href="#hl-3-7"> 7</a>
+</span><span class="lnt" id="hl-3-8"><a class="lnlinks" href="#hl-3-8"> 8</a>
+</span><span class="lnt" id="hl-3-9"><a class="lnlinks" href="#hl-3-9"> 9</a>
+</span><span class="lnt" id="hl-3-10"><a class="lnlinks" href="#hl-3-10">10</a>
+</span><span class="lnt" id="hl-3-11"><a class="lnlinks" href="#hl-3-11">11</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="c1"># github &lt;account_name&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="na">Host</span> <span class="s">github.com-&lt;account_name&gt; #</span>
 </span></span><span class="line"><span class="cl"><span class="na">HostName</span> <span class="s">github.com</span>
 </span></span><span class="line"><span class="cl"><span class="na">PreferredAuthentications</span> <span class="s">publickey</span>
@@ -248,24 +284,48 @@
 </span></span><span class="line"><span class="cl"><span class="na">HostName</span> <span class="s">github.com</span>
 </span></span><span class="line"><span class="cl"><span class="na">PreferredAuthentications</span> <span class="s">publickey</span>
 </span></span><span class="line"><span class="cl"><span class="na">IdentityFile</span> <span class="s">~/.ssh/&lt;key_name&gt;</span>
-</span></span></code></pre></div><p>The file could contain any number of keys.</p>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The file could contain any number of keys.</p>
 <ol start="6">
 <li>Clone a repository from Github using ssh</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">git</span> <span class="s">clone git@github.com-&lt;account_name&gt;:your_username/your_repository.git</span>
-</span></span></code></pre></div><p>Example: <code>git@github.com-eqslab:eqslab/website.git</code>. Typically, just copy line from Github and add <code>-&lt;account_name&gt;</code> after <code>.com</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-4-1"><a class="lnlinks" href="#hl-4-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">git</span> <span class="s">clone git@github.com-&lt;account_name&gt;:your_username/your_repository.git</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Example: <code>git@github.com-eqslab:eqslab/website.git</code>. Typically, just copy line from Github and add <code>-&lt;account_name&gt;</code> after <code>.com</code>.</p>
+<hr>
 <p><em>More information:</em></p>
 <ul>
 <li>
 <p><a href="https://www.ayyaztech.com/blog/how-to-use-multiple-github-accounts-on-the-same-machine">article</a></p>
 </li>
 <li>
-<p>▶️ <a href="https://www.youtube.com/watch?v=lAPcvItvdy0&t">https://www.youtube.com/watch?v=lAPcvItvdy0&t</a></p>
-</li>
-<li>
-<p>▶️ <a href="https://www.youtube.com/watch?v=N2hMGEeYR7c&t">https://www.youtube.com/watch?v=N2hMGEeYR7c&t</a></p>
+<p>videos:</p>
 </li>
 </ul>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lAPcvItvdy0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<br/>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/N2hMGEeYR7c?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
 
 
   </div>

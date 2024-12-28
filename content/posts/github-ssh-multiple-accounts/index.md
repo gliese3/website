@@ -12,6 +12,7 @@ cover:
   caption: ""
 ShowToc: false
 TocOpen: true
+math: true
 ---
 
 1. Create `.ssh` folder in your `home` directory and go to it.
@@ -76,7 +77,3 @@ _More information:_
 <br/>
 
 {{< youtube N2hMGEeYR7c >}}
-
-<!-- - ▶️ https://www.youtube.com/watch?v=lAPcvItvdy0&t
-
-- ▶️ https://www.youtube.com/watch?v=N2hMGEeYR7c&t -->
