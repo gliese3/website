@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/gliese3/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flameshot dual monitor fix for KDE Wayland</title>
+      <link>http://localhost:1313/gliese3/website/posts/flameshot-fix/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/posts/flameshot-fix/</guid>
+      <description>Fix for Flameshot to work properly on dual monitor setup on Wayland (KDE).</description>
+    </item>
     <item>
       <title>Multiple accounts on Github</title>
       <link>http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/</link>
@@ -26,13 +33,6 @@
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gliese3/website/posts/markdown-syntax/</guid>
       <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>New post</title>
-      <link>http://localhost:1313/gliese3/website/posts/new_post/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gliese3/website/posts/new_post/</guid>
-      <description>A brief guide to setup KaTeX</description>
     </item>
     <item>
       <title>Markdown Syntax Guide For L2</title>
