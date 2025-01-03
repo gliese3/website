@@ -17,6 +17,47 @@
     <loc>http://localhost:1313/gliese3/website/posts/papermod/papermod-variables/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/gliese3/website/</loc>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/gliese3/website/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/gliese3/website/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/posts/</loc>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/posts/transfering-system/</loc>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/tags/fix/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/tags/flameshot/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/posts/flameshot-fix/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gliese3/website/tags/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/gliese3/website/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/gliese3/website/tags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/gliese3/website/categories/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -39,37 +80,8 @@
     <loc>http://localhost:1313/gliese3/website/posts/github-ssh-multiple-accounts/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gliese3/website/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/gliese3/website/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/gliese3/website/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/gliese3/website/posts/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/gliese3/website/tags/ssh/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gliese3/website/tags/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/gliese3/website/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/gliese3/website/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/gliese3/website/tags/css/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
@@ -119,9 +131,6 @@
   </url><url>
     <loc>http://localhost:1313/gliese3/website/posts/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gliese3/website/posts/flameshot-fix/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gliese3/website/posts/markdown-syntax.fr/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
