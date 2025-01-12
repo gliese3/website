@@ -13,7 +13,7 @@ draft: false
 ---
 
 # Fix
-123 
+
 ![fix](images/271452128-07fc0612-edab-4c34-94ef-8abfc60c23c0.png)
 
 Taken from https://github.com/flameshot-org/flameshot/issues/3073#issuecomment-1740187784.
