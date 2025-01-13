@@ -30,13 +30,23 @@ Images from FreeCad:
 {{< figure src="images/Tm_holder+gas_pipe_assembly_3.png" title="Tm foil holder (assembly)">}}
 {{< figure src="images/objective_holder_assembly_1.png" title="Cryo objective holder">}}
 
+{{< figure src="images/photo_2025-01-13_15-27-03.jpg" title="Printed new center plate">}}
+{{< figure src="images/2025-01-13_15-33.png" title="Approximate scheme of the setup">}}
+
+
 4. <span style="color:green;"> Tm foil should arrive next week. </span>
+
+5. <span style="color:green;"> Purchased Cernox temperature sensors as well as temperature controller from Lake Shore (to be tested) </span>
+
+{{< figure src="images/photo_2025-01-13_15-46-35.jpg" title="Cernox sensors and temperature controller">}}
 
 ### To be done soon
 
-1. Building Gas Handling System for the cryostat.
+1. Testing attocube positioners at room temperature (soldering cables before).
 
-2. First ablation tests when foil arrives.
+2. Building Gas Handling System for the cryostat.
+
+3. First ablation tests when foil arrives.
 
 ### Questions
 
