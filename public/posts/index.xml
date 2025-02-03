@@ -11,13 +11,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/gliese3/website/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Group meeting 02/03/2025</title>
+      <link>http://localhost:1313/gliese3/website/posts/group-meeting-02-03-2025/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/posts/group-meeting-02-03-2025/</guid>
+      <description>Updates on Tm projects Assembled and tested the Attocube stack of nanopositioners Nanopisitioners work fine Potential problem: open loop z-positioner for scanning regimes Attocube stack Replaced the central part of the cryostat cold plate and received different holders &amp;#39;Ablation&amp;#39; position &amp;#39;Fluoresence measurments&amp;#39; position Gas inlet inside the cryostat using plastic (PEEK) tube for gas inlet was proposed
+design without thermal anchoring
+parts will be made of Teflon
+Potential setup Potential setup Printed parts From Freecad design with thermal anchoring</description>
+    </item>
+    <item>
       <title>Group meeting 01/13/2025</title>
-      <link>http://localhost:1313/gliese3/website/posts/group-meeting-01-1302025/</link>
+      <link>http://localhost:1313/gliese3/website/posts/group-meeting-01-13-2025/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gliese3/website/posts/group-meeting-01-1302025/</guid>
+      <guid>http://localhost:1313/gliese3/website/posts/group-meeting-01-13-2025/</guid>
       <description>First optical experiment preparations Done so far We got almost all the optical components needed for the first experiments (including windows, mirrors and lasers). Laser chiller arrived with the Verdi V10 green laser last week has some damage. Investigation is in progress. In the lab In the central receiving Copper parts for the cryostat also arrived last week. Waiting for the new center plate. Copper rods to be ordered. Images from FreeCad:</description>
     </item>
     <item>
