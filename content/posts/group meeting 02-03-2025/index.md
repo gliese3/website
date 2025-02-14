@@ -51,3 +51,6 @@ TocOpen: false
 
 {{< figure src="images/GHS_0.jpg" title="GSH possible scheme">}}
 
+## Optical setup
+
+{{< figure src="images/photo_2025-02-14_17-50-49.jpg" title="Optical layout so far">}}
