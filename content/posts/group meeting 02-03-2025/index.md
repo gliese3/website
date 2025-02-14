@@ -53,4 +53,4 @@ TocOpen: false
 
 ## Optical setup
 
-{{< figure src="images/photo_2025-02-14_17-50-49.jpg" title="Optical layout so far">}}
+{{< figure src="images/Cryostat experiment.jpg" title="Optical layout so far">}}
