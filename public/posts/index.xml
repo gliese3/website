@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/gliese3/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Group meeting 06/11/2025</title>
+      <link>http://localhost:1313/gliese3/website/posts/group-meeting-06-11-2025/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gliese3/website/posts/group-meeting-06-11-2025/</guid>
+      <description>Attocube stack thermolization Adding copper braids problem: temperature on top of the Attocube stack is high (~25K) for Ne deposition
+made several attempts to lower the temperature (adding copper braids) manually made copper braids setup with copper braids (1) setup with copper braids (2) this configuration allowed us to lower the temperature up to 13K, but the rotational movement was limited to about 90°, which is not sufficient for the proposed optical setup.</description>
+    </item>
     <item>
       <title>Group meeting 02/03/2025</title>
       <link>http://localhost:1313/gliese3/website/posts/group-meeting-02-03-2025/</link>
