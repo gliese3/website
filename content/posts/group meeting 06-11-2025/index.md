@@ -90,7 +90,7 @@ electron-electron collisions leading to the thermalization of the electron gas
 
 - under nanosecond laser pulses, the absorbed laser energy first heats the target surface to the melting point and then to the vaporization temperature. In case of metals, much more energy is needed to vaporize than to melt the material
 
-- nn the case of laser ablation with ‘long’ nanosecond laser pulses there is enough time for the thermal wave to propagate into the target and to create a relatively large layer of melted material. In this case the evaporation occurs from the liquid metal, which makes accurate material processing of metal targets with nanosecond pulses very difficult
+- in the case of laser ablation with ‘long’ nanosecond laser pulses there is enough time for the thermal wave to propagate into the target and to create a relatively large layer of melted material. In this case the evaporation occurs from the liquid metal, which makes accurate material processing of metal targets with nanosecond pulses very difficult
 
 - the laser-ablation process can be divided in two stages: (a) evaporation of the solid target and plasma formation; (b) expansion of the ablated plume in vacuum or into the surrounding medium
 
