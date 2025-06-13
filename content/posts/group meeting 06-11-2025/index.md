@@ -19,6 +19,9 @@ TocOpen: false
 
 - this configuration allowed us to lower the temperature up to **13K**, but the rotational movement was limited to about 90°, which is not sufficient for the proposed optical setup. Although the braids connected to the rotor are very thin
 
+- <span style="color:blue;">_note_</span>: when start moving stages, temperature could increase by several Kelvins
+
+
 ### Using copper plate
 
 - machined a 0.5 mm thick copper plate from OF copper stock and soldered copper braids
